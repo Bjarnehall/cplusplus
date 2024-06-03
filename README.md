@@ -5,9 +5,9 @@ I detta repo kommer jag att samla kod ifrån övningsuppgifter och inlämningsup
 Kommandon som är bra att ha
 ---------------------------
 
-**Kompilera källkoden med GNU**
+**Kompilera källkoden med GNU**<br>
 g++ minfil.cpp -o minfil
 
-**Kör  den kompilerade filen i terminalen**
+**Kör  den kompilerade filen i terminalen**<br>
 ./minfil
 
