@@ -1,0 +1,10 @@
+Terminal kommandon
+
+Kompilera källkoden
+g++ main.cpp -o main
+
+Kör  den kompilerade filen
+./main
+
+Kompilering och länkning
+ g++ -o main.exe main.cpp
