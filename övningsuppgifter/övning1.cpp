@@ -7,11 +7,17 @@
 using namespace std;
 int main()
 {
-    cout << "" << endl;
-    cout << "" << endl;
+    // Generera 2 tomma rader
+    cout << endl;
+    cout << endl;
+
+    // Skriv ut "Hello world"
     cout << "Hello world" << endl;
-    cout << "" << endl;
-    cout << "" << endl;
-    cout << "" << endl;
+
+    // Generera 3 tomma rader
+    cout << endl;
+    cout << endl;
+    cout << endl;
+
     return 0;
 }
