@@ -11,3 +11,11 @@ g++ minfil.cpp -o minfil
 **Kör  den kompilerade filen i terminalen**<br>
 ./minfil
 
+Repots uppbyggnad
+-----------------
+**cppDirekt**
+Innehåller övningsuppgifter ifrån boken c++ Direkt
+
+**övningsuppgifter**
+Innehåller övningsuppgifter ifrån kursmatrial på Canvas
+
