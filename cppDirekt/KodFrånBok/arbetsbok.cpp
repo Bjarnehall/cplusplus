@@ -1,3 +1,5 @@
+//Detta programmet räknar ut ränta på ränta effekten
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
