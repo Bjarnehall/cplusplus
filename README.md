@@ -13,9 +13,9 @@ g++ minfil.cpp -o minfil
 
 Repots uppbyggnad
 -----------------
-**cppDirekt**
+**cppDirekt**<br>
 Innehåller övningsuppgifter ifrån boken c++ Direkt
 
-**övningsuppgifter**
+**övningsuppgifter**<br>
 Innehåller övningsuppgifter ifrån kursmatrial på Canvas
 
