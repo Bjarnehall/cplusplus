@@ -23,34 +23,29 @@ Innehåller övningsuppgifter ifrån kursmatrial på Canvas
 ----------------
 Dessa övningsuppgifter går att använda för att öva på alla programmeringsspråk
 
-**1**<br>
+**1** Namn och adress<br>
 Skriv ett program som skriver ut ditt namn och adress<br>
 
-**2**<br>
+**2** Mätarställlning<br>
 Skriv ett program som beräknar hur många mil en bil har gått det senaste året <br>
 utifrån användarens uppgifter.
 
-**3**<br>
+**3** Mätarställning och förbrukning<br>
 Skriv ett program som beräknar hur många mil en bil har gått det senaste året <br>
 samt dess genomsnittliga bränsleförbrukning utifrån användarens uppgifter.
 
-**4**<br>
+**4** Bilförsäkringen<br>
 Skriv ett program som rekomenderar en bilförsäkring utifrån användarens uppgifter <br>
 Max 5 år gammal bil = helförsäkring <br>
 6 - 24 år gammal bil = halvförsäkring <br>
 25+ år gammal bil = veteranbilsförsäkring <br>
 
-**5**<br>
+**5** Miles per gallon till liter/mil<br>
 Skriv ett program som räknar om miles per gallon utifrån användarens <br>
-inmatning till liter per mil. <br>
+inmatade förbrukning i miles per gallon till liter per mil. <br>
 
-**6**<br>
-En löpartävling består av två lopp. Segraren i tävlingen är<br>
-den som har den kortaste totaltiden av de två loppen sammanlagt<br>
+**6** Löpartävlingen<br>
+Skriv ett program som tar input från två löpare i form av tid och namn. <br>
+Tiderna för de två löparna jämförs för att sedan avgöra en vinnare<br>
+Vinnaren presenteras tillsammans med tid i form: hh:mm:ss.
 
-Skriv ett program som beräknar totaltiden för en löpare, Tiderna för<br>
-de två loppen skall vara indata till programmet och anges i timmar, <br>
-minuter, sekunder med formen tt mm ss. Resultatet från programmet <br>
-skall skrivas ut i denna form Programmet ska ta input av användaren <br>
-för att jämföra två löparen tider och utse en vinnare.<br>
-Vinnaren ska presenteras med namn och tid.
