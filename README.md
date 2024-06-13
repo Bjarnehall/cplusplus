@@ -45,7 +45,13 @@ Skriv ett program som räknar om miles per gallon utifrån användarens <br>
 inmatade förbrukning i miles per gallon till liter per mil. <br>
 
 **6** Löpartävlingen<br>
-Skriv ett program som tar input från två löpare i form av tid och namn. <br>
-Tiderna för de två löparna jämförs för att sedan avgöra en vinnare<br>
-Vinnaren presenteras tillsammans med tid i form: hh:mm:ss.
+En löpartävling består av två lopp. Segraren i tävlingen är<br>
+den som har den kortaste totaltiden av de två loppen sammanlagt<br>
+Skriv ett program som beräknar totaltiden för en löpare,<br>
+Tiderna för de två loppen skall vara indata till programmet<br>
+och anges i timmar, minuter, sekunder med formen tt mm ss.<br>
+Resultatet från programmet skall skrivas ut i denna form<br>
+Programmet ska ta input av användaren för att jämföra<br>
+två löpares tider och utse en vinnare.<br>
+Varje löpare ska ha ett namn och en tid.<br>
 
