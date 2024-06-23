@@ -55,8 +55,8 @@ int main()
                               << "Decide if you want to play on color" << endl
                               << "or a chosen number the payback is :" << endl
                               << "" << endl
-                              << "   x2 on color         Type:  color" << endl
-                              << "   x10 on number       Type: number" << endl;
+                              << "   x2 on color Type:        |  color" << endl
+                              << "   x10 on number Type:      | number" << endl;
                     }
                     else
                     {
@@ -71,24 +71,25 @@ int main()
 
                //Let user know wich type of play that is chosen
           cout << "" << endl
-               << "You hace chosen to play on a " << playType << endl;
+               << "You hace chosen to play on  |  " << playType << endl;
 
           // Depending on type of play chosen program proceeds diffrently
           if (playType == "color")
                {
                     cout << "Select a color to bet on " << endl
-                         << "   To bet on Black type: black" << endl
-                         << "   To bet on Red   type: red" << endl;
+                         << "   Bet on Black type:       |  black" << endl
+                         << "   Bet on Red   type:       |    red" << endl;
                     cin >> playerCol;
                     if (cin.eof())
                          return 0; // Let user shut down program
                     cout << "" << endl
-                         << "You have chosen the color :" << playerCol << endl
+                         << "You have chosen the color:  |  " << playerCol << endl
                          << "" << endl;
                }
                else if (playType == "number")
                     {
                          cout << "Select a number to bet on " << endl
+                              << "" << endl
                               << "Type a number between 1 and 36: " << endl;
                          cin >> playerNum;
                          if (cin.eof())
@@ -109,11 +110,12 @@ int main()
                          }
 
           // Let user place a bet on type of play
-          cout << "You have: " << wallet << " kr how much do you want to bet? " << endl
-               << "Type:  " << endl
-               << "100    | to bet 100kr on play" << endl
-               << "300    | to bet 300kr on play" << endl
-               << "500    | to bet 500kr on play" << endl;
+          cout << "You have: " << wallet << " kr how much do you" << endl
+               << "want to bet?  Type: " << endl
+               << "" << endl
+               << "To bet 100kr on play Type:  |   100" << endl
+               << "To bet 300kr on play Type:  |   300" << endl
+               << "To bet 500kr on play Type:  |   500" << endl;
 
           // Let user input bet and stores value
           cin >> bet;
@@ -123,20 +125,24 @@ int main()
           // Control that makes sure the user can afford chosen bet
           if (bet > wallet)
                {
-                    cout << "You do not have enough cash to place that bet " << endl
+                    cout << "" << endl
+                         << "You do not have enough cash to place that bet " << endl
                          << "You have: " << wallet << " kr how much do you want to bet? " << endl
                          << "Type:  "
-                         << "100    | to bet 100kr on play" << endl
-                         << "300    | to bet 300kr on play" << endl
-                         << "500    | to bet 500kr on play" << endl;
+                         << "100       | to bet 100kr on play" << endl
+                         << "300       | to bet 300kr on play" << endl
+                         << "500       | to bet 500kr on play" << endl;
                }
                // Let user proceed after control of bet
                else
                     {
-                         cout << "Bet is placed are you ready to roll the wheel? " << endl;
+                         cout << "" << endl
+                              << "Bet is placed are you ready to roll" << endl 
+                              << "the wheel? " << endl;
                     }
 
-          cout << "Type: spin     | to roll the wheel" << endl;
+          cout << "" << endl
+               << "To roll the wheel Type:     |   spin" << endl;
           cin >> spin;
           if (cin.eof())
                return 0; // Let user shut down program
@@ -170,6 +176,7 @@ int main()
                {
                     if (playerNum == resultNum) 
                     {
+                         //subtrahera satsade pengar ifrån plånbok innan utdelning annars blir det fel värde//
                          wallet += bet * 10;
                          cout << "Congratulations! you won. Your new wallet balance is: " << wallet << " kr" << endl;
                     } 
