@@ -1,19 +1,18 @@
 /*
  This is a c++ program for a console based roulette game
- The program is made as an assignment for a introductory
- course at His university
+ The program is made as an assignment for an introductory
+ course in C++ at His university
  @author Jonas Bjarnehall
 */
 
 #include <iostream>
-#include <iomanip>
+//#include <iomanip>
 #include <string>
 #include <ctime>
 
 using namespace std;
 
 int main()
-
 {
     // Declare variables for game
     int wallet = 1000;
@@ -167,7 +166,8 @@ int main()
                     else 
                     {
                          wallet -= bet;
-                         cout << "sorry you lost. your new balance is: " << wallet << " kr" << endl;
+                         cout << "Sorry better luck next time!" << endl
+                              << "your new balance is: " << wallet << " kr" << endl;
                     }
                }
 
